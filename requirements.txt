@@ -1,0 +1,4 @@
+pandas>=2.2,<3
+pyarrow>=18,<26
+requests>=2.31,<3
+urllib3>=2,<3

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+
+# pytest / coverage / type checkers
+.pytest_cache/
+.pytest_*/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary and editor files
+*.tmp
+*.tmp.*
+*.swp
+*~
+.idea/
+.vscode/
+
+# Runtime data, checkpoints and logs (do not delete local files)
+/data/raw/
+/data/processed/
+/data/history/
+/state/
+/logs/
+*.log
+*.log.*
